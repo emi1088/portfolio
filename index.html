@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio | Emi Terasawa</title>
+
+    <meta
+      name="description"
+      content="Web制作・グラフィックデザイン・バナー制作・動画編集のポートフォリオ。"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+    HEADER
+    ========================== -->
+
+    <header class="header">
+      <div class="header-inner">
+        <a href="./index.html" class="logo"> PORTFOLIO</a>
+
+        <nav class="nav">
+          <a href="./index.html#about"> ABOUT </a>
+
+          <a href="./index.html#works"> WORKS </a>
+
+          <a href="./index.html#skills"> SKILLS </a>
+
+          <a href="./index.html#contact"> CONTACT </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+        HERO
+        ========================== -->
+
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="hero-label">WEB / DESIGN / VIDEO</p>
+
+          <h1>
+            Design that<br />
+            <span>communicates.</span>
+          </h1>
+
+          <p class="hero-description">
+            Web制作・グラフィック・動画編集を通して、<br />
+            「伝えたい」をカタチに。
+          </p>
+
+          <a href="#works" class="button button-dark"> VIEW WORKS</a>
+        </div>
+
+        <div class="hero-decoration">01</div>
+      </section>
+
+      <!-- =========================
+        ABOUT
+        ========================== -->
+
+      <section id="about" class="section about">
+        <div class="section-heading">
+          <span class="section-number"> 01 </span>
+
+          <h2>ABOUT</h2>
+
+          <p>私について</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="./images/IMG_5649_Original (3).jpg"
+              alt="プロフィール写真"
+            />
+          </div>
+
+          <div class="about-text">
+            <p class="about-label">WEB / GRAPHIC / VIDEO</p>
+
+            <h3>Emi Terasawa</h3>
+
+            <p>
+              接客・販売、PCテクニカルサポート、
+              コーディネーター、業務管理など、
+              人と関わる仕事を経験してきました。
+            </p>
+
+            <p>
+              現在は職業訓練でWeb制作を学びながら、
+              Photoshop・Illustratorを使用した グラフィック制作や動画編集にも
+              取り組んでいます。
+            </p>
+
+            <p>
+              「見る人の立場に立って考えること」を大切にし、
+              デザインの目的やターゲットを意識した 制作を心がけています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+        WORKS
+        ========================== -->
+
+      <section id="works" class="section works">
+        <div class="section-heading">
+          <span class="section-number"> 02 </span>
+
+          <h2>WORKS</h2>
+
+          <p>制作実績</p>
+        </div>
+
+        <!-- CATEGORY -->
+
+        <div class="work-filter">
+          <button class="filter-button active" data-filter="all">ALL</button>
+
+          <button class="filter-button" data-filter="web">WEB</button>
+
+          <button class="filter-button" data-filter="banner">BANNER</button>
+
+          <button class="filter-button" data-filter="graphic">GRAPHIC</button>
+
+          <button class="filter-button" data-filter="video">VIDEO</button>
+        </div>
+
+        <!-- WORKS GRID -->
+
+        <div class="works-grid">
+          <!-- Lumière Nail -->
+
+          <article class="work-card" data-category="web">
+            <a href="./works/lumiere.html">
+              <div class="work-image">
+                <img
+                  src="./images/ネイルサロン画像.png"
+                  alt="Lumière Nail Webサイト"
+                />
+              </div>
+
+              <div class="work-info">
+                <span> WEB DESIGN </span>
+
+                <h3>Lumière Nail</h3>
+
+                <p>HTML / CSS / JavaScript</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- 求人バナー -->
+
+          <article class="work-card" data-category="banner">
+            <a href="./works/recruitment.html">
+              <div class="work-image">
+                <img src="./images/広告 2.png" alt="求人広告バナー" />
+              </div>
+
+              <div class="work-info">
+                <span> BANNER </span>
+
+                <h3>Recruitment Banner</h3>
+
+                <p>Photoshop</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- ゲーム広告 -->
+
+          <article class="work-card" data-category="banner">
+            <a href="./works/game.html">
+              <div class="work-image">
+                <img src="./images/アリア.png" alt="ゲーム広告バナー" />
+              </div>
+
+              <div class="work-info">
+                <span> BANNER </span>
+
+                <h3>幻星のアリア</h3>
+
+                <p>Photoshop</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- ネイル広告 -->
+
+          <article class="work-card" data-category="banner">
+            <a href="./works/nail-banner.html">
+              <div class="work-image">
+                <img
+                  src="./images/ネイルサロン 1.jpg"
+                  alt="ネイルサロン広告"
+                />
+              </div>
+
+              <div class="work-info">
+                <span> BANNER </span>
+
+                <h3>Nail Salon Banner</h3>
+
+                <p>Photoshop</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- フライヤー -->
+
+          <article class="work-card" data-category="graphic">
+            <a href="./works/flyer.html">
+              <div class="work-image flyer-image">
+                <img
+                  src="./images/フライヤー修正2-1.png"
+                  alt="ネイルサロンフライヤー"
+                />
+              </div>
+
+              <div class="work-info">
+                <span> GRAPHIC </span>
+
+                <h3>Nail Salon Flyer</h3>
+
+                <p>Photoshop / Illustrator</p>
+              </div>
+            </a>
+          </article>
+
+          <!-- TikTok -->
+
+          <article class="work-card" data-category="video">
+            <a href="./works/video.html">
+              <div class="video-thumbnail">
+                <div class="play-button">▶</div>
+
+                <span> TIKTOK </span>
+              </div>
+
+              <div class="work-info">
+                <span> VIDEO / SNS </span>
+
+                <h3>TikTok</h3>
+
+                <p>Video Editing / SNS</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- =========================
+        VIDEO
+        ========================== -->
+
+      <section class="video-intro">
+        <div class="video-intro-inner">
+          <div class="video-intro-text">
+            <span class="section-number"> 03 </span>
+
+            <h2>
+              VIDEO<br />
+              &amp; SNS
+            </h2>
+
+            <p>
+              TikTokを中心に、 SNS向けの動画編集や コンテンツ制作にも
+              取り組んでいます。
+            </p>
+
+            <a
+              href="./works/video.html"
+              class="button button-outline"
+            >
+              VIEW VIDEO WORK
+            </a>
+          </div>
+
+          <div class="video-intro-visual">
+            <div class="video-frame">
+              <span> TIKTOK </span>
+
+              <strong>
+                VIDEO<br />
+                EDITING
+              </strong>
+
+              <small> LIVE / SHORT VIDEO / SNS </small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+        SKILLS
+        ========================== -->
+
+      <section id="skills" class="section skills">
+        <div class="section-heading">
+          <span class="section-number"> 04 </span>
+
+          <h2>SKILLS</h2>
+
+          <p>使用ツール・スキル</p>
+        </div>
+
+        <div class="skills-list">
+          <div class="skill">
+            <span> 01 </span>
+
+            <div>
+              <h3>HTML / CSS</h3>
+
+              <p>レスポンシブ対応を含む Webサイト制作</p>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span> 02 </span>
+
+            <div>
+              <h3>JavaScript</h3>
+
+              <p>Webサイトの基本的な 動き・機能の実装</p>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span> 03 </span>
+
+            <div>
+              <h3>Photoshop</h3>
+
+              <p>バナー・広告・フライヤー・ 画像加工</p>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span> 04 </span>
+
+            <div>
+              <h3>Illustrator</h3>
+
+              <p>グラフィック・ 印刷物制作</p>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span> 05 </span>
+
+            <div>
+              <h3>Video Editing</h3>
+
+              <p>SNS向け動画・ ショート動画編集</p>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span> 06 </span>
+
+            <div>
+              <h3>Git / GitHub</h3>
+
+              <p>バージョン管理・ Webサイト公開</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+        CONTACT
+        ========================== -->
+
+      <section id="contact" class="contact">
+        <div class="contact-inner">
+          <span class="section-number"> 05 </span>
+
+          <h2>
+            LET'S<br />
+            CREATE.
+          </h2>
+
+          <p>お仕事のご相談・お問い合わせはこちらから。</p>
+
+          <a href="mailto:ここにメールアドレス" class="button button-light">
+            CONTACT
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+    FOOTER
+    ========================== -->
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p>© 2026 Emi Terasawa</p>
+
+        <div class="footer-links">
+          <a
+            href="https://lite.tiktok.com/t/ZS9DPLBXyX553-RAuqJ/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
+          </a>
+
+          <a
+            href="https://github.com/emi1088"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./portfolio/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1140 @@
+/*==================================================
+   Work Detail
+   Common
+================================================== */
+
+
+/* ==================================================
+   Common Header
+================================================== */
+
+.work-detail .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    width: 100%;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.work-detail .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: min(90%, 1200px);
+    height: 80px;
+
+    margin: 0 auto;
+}
+
+.work-detail .logo {
+    margin: 0;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 22px;
+    font-weight: 500;
+
+    letter-spacing: 0.12em;
+}
+
+.work-detail .logo a {
+    color: #333;
+    text-decoration: none;
+}
+
+.work-detail .nav-list {
+    display: flex;
+
+    align-items: center;
+
+    gap: 40px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.work-detail .nav-list li {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.work-detail .nav-list a {
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 15px;
+
+    letter-spacing: 0.1em;
+}
+
+.work-detail .hamburger {
+    display: none;
+}
+
+
+/* ==================================================
+   Detail Header
+================================================== */
+
+.work-detail-header {
+    padding-top: 160px;
+    padding-bottom: 80px;
+
+    text-align: center;
+
+    background: #f8f5f2;
+}
+
+.work-detail-header-inner {
+    width: min(90%, 1100px);
+    margin: 0 auto;
+}
+
+.work-detail-category {
+    margin: 0 0 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 17px;
+
+    letter-spacing: 0.15em;
+
+    color: #c8a96a;
+}
+
+.work-detail-title {
+    margin: 0 0 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: clamp(45px, 7vw, 80px);
+
+    font-weight: 500;
+
+    line-height: 1.1;
+
+    color: #4e403b;
+}
+
+.work-detail-subtitle {
+    margin: 0;
+
+    font-size: 13px;
+
+    letter-spacing: 0.1em;
+
+    color: #777;
+}
+
+
+/* ==================================================
+   Main Visual
+================================================== */
+
+.mainVisual {
+    padding: 80px 0 100px;
+
+    background: #fff;
+}
+
+.mainVisual img {
+    display: block;
+
+    width: 100%;
+    max-width: 850px;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    object-fit: contain;
+}
+
+
+/* ==================================================
+   Work Information
+================================================== */
+
+.work-info {
+    width: min(90%, 850px);
+
+    margin: 0 auto;
+}
+
+.work-info-item {
+    padding: 55px 0;
+
+    border-top:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.work-info-item:last-child {
+    border-bottom:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.work-info-item h3 {
+    margin: 0 0 20px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.05em;
+
+    color: #4e403b;
+}
+
+.work-info-item p {
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 2.2;
+
+    letter-spacing: 0.05em;
+
+    color: #555;
+}
+
+
+/* ==================================================
+   Back to Works
+================================================== */
+
+.work-detail-back {
+    padding: 80px 20px;
+
+    text-align: center;
+
+    background: #f8f5f2;
+}
+
+.work-detail-back a {
+    display: inline-block;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 18px;
+
+    letter-spacing: 0.1em;
+
+    color: #4e403b;
+}
+
+
+/* ==================================================
+   Footer
+================================================== */
+
+.work-detail .footer {
+    margin-top: 0;
+}
+
+
+/* ==================================================
+   Lumière Nail
+   Dedicated Design
+================================================== */
+
+.lumiere-detail .lumiere-work-hero {
+    padding: 180px 20px 100px;
+
+    background: #f8f5f2;
+
+    text-align: center;
+}
+
+.lumiere-detail .lumiere-work-hero-inner {
+    width: min(90%, 1100px);
+    margin: 0 auto;
+}
+
+.lumiere-detail .lumiere-work-label {
+    margin: 0 0 20px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 18px;
+
+    letter-spacing: 0.18em;
+
+    color: #c8a96a;
+}
+
+.lumiere-detail .lumiere-work-hero h2 {
+    margin: 0 0 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: clamp(48px, 7vw, 88px);
+
+    font-weight: 500;
+
+    line-height: 1.1;
+
+    color: #4e403b;
+}
+
+.lumiere-detail .lumiere-work-subtitle {
+    margin: 0;
+
+    font-size: 14px;
+
+    letter-spacing: 0.16em;
+
+    color: #4e403b;
+}
+
+
+/* Lumière Common */
+
+.lumiere-detail .lumiere-work-inner {
+    width: min(90%, 1100px);
+
+    margin: 0 auto;
+}
+
+
+/* Lumière Main Visual */
+
+.lumiere-detail .lumiere-work-visual {
+    padding: 80px 0 120px;
+
+    background: #fff;
+}
+
+.lumiere-detail .lumiere-work-visual img {
+    display: block;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: auto;
+
+    margin: 0 auto;
+
+    box-shadow:
+        0 20px 50px rgba(78, 64, 59, 0.12);
+}
+
+
+/* Lumière Sections */
+
+.lumiere-detail .lumiere-work-section {
+    padding: 120px 0;
+
+    background: #fff;
+}
+
+.lumiere-detail .lumiere-work-section-bg {
+    background: #f8f5f2;
+}
+
+
+/* Lumière Heading */
+
+.lumiere-detail .lumiere-section-heading {
+    margin-bottom: 55px;
+}
+
+.lumiere-detail .lumiere-section-heading span {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 18px;
+
+    letter-spacing: 0.15em;
+
+    color: #c8a96a;
+}
+
+.lumiere-detail .lumiere-section-heading h3 {
+    margin: 0;
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+    color: #4e403b;
+}
+
+
+/* Lumière Text */
+
+.lumiere-detail .lumiere-work-text {
+    max-width: 780px;
+}
+
+.lumiere-detail .lumiere-work-text p {
+    margin: 0 0 25px;
+
+    font-size: 15px;
+
+    line-height: 2.2;
+
+    letter-spacing: 0.08em;
+
+    color: #4e403b;
+}
+
+
+/* Lumière Colors */
+
+.lumiere-detail .lumiere-color-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-bottom: 60px;
+}
+
+.lumiere-detail .lumiere-color-item {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 25px;
+
+    background: #fff;
+
+    border: 1px solid rgba(78, 64, 59, 0.08);
+}
+
+.lumiere-detail .lumiere-color {
+    flex-shrink: 0;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+.lumiere-detail .lumiere-color-bg {
+    background: #f8f5f2;
+
+    border: 1px solid #ddd;
+}
+
+.lumiere-detail .lumiere-color-main {
+    background: #4e403b;
+}
+
+.lumiere-detail .lumiere-color-accent {
+    background: #c8a96a;
+}
+
+.lumiere-detail .lumiere-color-item h4 {
+    margin: 0 0 5px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+}
+
+.lumiere-detail .lumiere-color-item p {
+    margin: 0;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 17px;
+}
+
+
+/* Lumière Fonts */
+
+.lumiere-detail .lumiere-font-box {
+    padding-top: 45px;
+
+    border-top:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.lumiere-detail .lumiere-font-box h4 {
+    margin: 0 0 20px;
+
+    font-size: 14px;
+}
+
+.lumiere-detail .lumiere-font-en {
+    margin: 0 0 8px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 28px;
+}
+
+.lumiere-detail .lumiere-font-jp {
+    margin: 0;
+
+    font-size: 18px;
+}
+
+
+/* Lumière Pages */
+
+.lumiere-detail .lumiere-page-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    border-top:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.lumiere-detail .lumiere-page-item {
+    display: flex;
+
+    gap: 25px;
+
+    padding: 30px 20px;
+
+    border-bottom:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.lumiere-detail .lumiere-page-item:nth-child(odd) {
+    border-right:
+        1px solid rgba(78, 64, 59, 0.15);
+}
+
+.lumiere-detail .lumiere-page-item > span {
+    flex-shrink: 0;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 18px;
+
+    color: #c8a96a;
+}
+
+.lumiere-detail .lumiere-page-item h4 {
+    margin: 0 0 8px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 25px;
+
+    font-weight: 500;
+}
+
+.lumiere-detail .lumiere-page-item p {
+    margin: 0;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* Lumière Tools */
+
+.lumiere-detail .lumiere-tool-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.lumiere-detail .lumiere-tool-list li {
+    padding: 12px 25px;
+
+    border: 1px solid #4e403b;
+
+    font-size: 13px;
+
+    letter-spacing: 0.08em;
+}
+
+
+/* Lumière Button */
+
+.lumiere-detail .lumiere-work-link {
+    padding: 120px 20px;
+
+    background: #4e403b;
+
+    text-align: center;
+}
+
+.lumiere-detail .lumiere-work-link p {
+    margin: 0 0 30px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 22px;
+
+    color: #fff;
+}
+
+.lumiere-detail .lumiere-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 220px;
+    min-height: 60px;
+
+    padding: 15px 35px;
+
+    border: 1px solid #c8a96a;
+
+    color: #fff;
+
+    letter-spacing: 0.12em;
+}
+
+
+/* ==================================================
+   Tablet
+================================================== */
+
+@media screen and (max-width: 899px) {
+
+    .work-detail .nav {
+        display: none;
+    }
+
+    .work-detail .hamburger {
+        display: block;
+    }
+
+    .mainVisual {
+        padding: 60px 0 80px;
+    }
+
+    .mainVisual img {
+        max-width: 90%;
+    }
+
+    .work-info {
+        width: 88%;
+    }
+
+    .lumiere-detail .lumiere-color-list {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+
+/* ==================================================
+   Mobile
+================================================== */
+
+@media screen and (max-width: 767px) {
+
+    .work-detail .header-inner {
+        width: 88%;
+        height: 70px;
+    }
+
+    .work-detail-header {
+        padding-top: 130px;
+        padding-bottom: 60px;
+    }
+
+    .work-detail-title {
+        font-size: 48px;
+    }
+
+    .mainVisual {
+        padding: 40px 0 60px;
+    }
+
+    .mainVisual img {
+        max-width: 88%;
+    }
+
+    .work-info {
+        width: 88%;
+    }
+
+    .work-info-item {
+        padding: 40px 0;
+    }
+
+    .work-info-item h3 {
+        font-size: 22px;
+    }
+
+    .work-info-item p {
+        font-size: 13px;
+    }
+
+
+    /* Lumière */
+
+    .lumiere-detail .lumiere-work-hero {
+        padding: 120px 20px 60px;
+    }
+
+    .lumiere-detail .lumiere-work-hero h2 {
+        font-size: 48px;
+    }
+
+    .lumiere-detail .lumiere-work-visual {
+        padding: 40px 0 60px;
+    }
+
+    .lumiere-detail .lumiere-work-section {
+        padding: 70px 0;
+    }
+
+    .lumiere-detail .lumiere-work-inner {
+        width: 88%;
+    }
+
+    .lumiere-detail .lumiere-color-list {
+        grid-template-columns: 1fr;
+    }
+
+    .lumiere-detail .lumiere-page-list {
+        grid-template-columns: 1fr;
+    }
+
+    .lumiere-detail .lumiere-page-item:nth-child(odd) {
+        border-right: none;
+    }
+
+}
+
+/* ==================================================
+   Work Detail - Current HTML
+================================================== */
+
+.work-detail {
+    padding-top: 80px;
+}
+
+/* タイトル */
+.work-detail-heading {
+    width: min(90%, 850px);
+
+    margin: 0 auto;
+    padding: 100px 0 60px;
+
+    text-align: center;
+}
+
+.work-detail-heading span {
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 15px;
+
+    letter-spacing: 0.15em;
+
+    color: #999;
+}
+
+.work-detail-heading h1 {
+    margin: 0 0 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: clamp(45px, 7vw, 80px);
+
+    font-weight: 500;
+
+    line-height: 1.1;
+
+    text-align: center;
+}
+
+.work-detail-heading p {
+    margin: 0;
+
+    font-size: 14px;
+
+    letter-spacing: 0.08em;
+
+    text-align: center;
+
+    color: #777;
+}
+
+
+/* メイン画像 */
+.work-detail-main {
+    display: flex;
+
+    justify-content: center;
+
+    width: min(90%, 1000px);
+
+    margin: 0 auto 100px;
+}
+
+.work-detail-main img {
+    display: block;
+
+    width: 100%;
+    max-width: 550px;
+
+    height: auto;
+
+    margin: 0 auto;
+}
+
+
+/* Overview / Target / Tool / Point */
+.work-detail-info {
+    width: min(90%, 850px);
+
+    margin: 0 auto;
+}
+
+.work-detail-info > div {
+    padding: 45px 0;
+
+    text-align: center;
+
+    border-top:
+        1px solid rgba(0, 0, 0, 0.12);
+}
+
+.work-detail-info > div:last-child {
+    border-bottom:
+        1px solid rgba(0, 0, 0, 0.12);
+}
+
+.work-detail-info h2 {
+    margin: 0 0 15px;
+
+    font-family:
+        "Cormorant Garamond",
+        serif;
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.05em;
+}
+
+.work-detail-info p {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    font-size: 14px;
+
+    line-height: 2.2;
+
+    letter-spacing: 0.05em;
+
+    color: #555;
+}
+
+/*==================================================
+   Lumière Detail - Center Alignment
+================================================== */
+
+/* セクション全体 */
+.lumiere-detail .lumiere-work-inner {
+    text-align: center;
+}
+
+
+/* セクション見出し */
+.lumiere-detail .lumiere-section-heading {
+    text-align: center;
+}
+
+
+/* 説明文 */
+.lumiere-detail .lumiere-work-text {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.lumiere-detail .lumiere-work-text p {
+    text-align: center;
+}
+
+
+/* カラーパレット */
+.lumiere-detail .lumiere-color-list {
+    justify-items: center;
+}
+
+.lumiere-detail .lumiere-color-item {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Typography */
+.lumiere-detail .lumiere-font-box {
+    text-align: center;
+}
+
+.lumiere-detail .lumiere-font-en,
+.lumiere-detail .lumiere-font-jp {
+    text-align: center;
+}
+
+
+/* 制作ページ */
+.lumiere-detail .lumiere-page-list {
+    text-align: center;
+}
+
+.lumiere-detail .lumiere-page-item {
+    justify-content: center;
+    text-align: center;
+}
+
+.lumiere-detail .lumiere-page-item > span {
+    display: block;
+}
+
+
+/* 使用技術 */
+.lumiere-detail .lumiere-tool-list {
+    justify-content: center;
+}
+
+
+/* 実際に制作したWebサイト */
+.lumiere-detail .lumiere-work-link {
+    text-align: center;
+}
+
+/*==================================================
+   Mobile Navigation
+================================================== */
+
+.mobile-nav {
+    display: none;
+}
+
+/*==================================================
+    Lumière Header
+ ================================================== */
+
+.lumiere-detail .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.lumiere-detail .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(90%, 1200px);
+    height: 80px;
+    margin: 0 auto;
+}
+
+.lumiere-detail .logo {
+    margin: 0;
+}
+
+.lumiere-detail .nav {
+    display: block;
+    margin-left: auto;
+}
+
+.lumiere-detail .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lumiere-detail .nav-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lumiere-detail .nav-list a {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    color: #333;
+    text-decoration: none;
+}
+
+.lumiere-detail .hamburger {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+/* ==================================================
+   Video Detail
+================================================== */
+/* 動画メイン */
+.video-main {
+    width: min(90%, 1000px);
+    margin: 0 auto 100px;
+}
+.video-main video {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    background: #000;
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.08);
+}
+/* TikTok Section */
+.video-tiktok {
+    margin-top: 100px;
+    padding: 100px 20px;
+    text-align: center;
+    background: #f8f5f2;
+}
+.video-tiktok > span {
+    display: block;
+    margin-bottom: 15px;
+    font-family:
+        "Cormorant Garamond",
+        serif;
+    font-size: 15px;
+    letter-spacing: 0.18em;
+    color: #c8a96a;
+}
+.video-tiktok h2 {
+    margin: 0 0 20px;
+    font-family:
+        "Cormorant Garamond",
+        serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #4e403b;
+}
+.video-tiktok p {
+    margin: 0 auto 35px;
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    color: #555;
+}
+.video-tiktok a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    min-width: 220px;
+    padding: 17px 30px;
+    border: 1px solid #4e403b;
+    font-family:
+        "Cormorant Garamond",
+        serif;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    color: #4e403b;
+    text-decoration: none;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+.video-tiktok a span {
+    font-size: 18px;
+}
+.video-tiktok a:hover {
+    background: #4e403b;
+    color: #fff;
+}
+/* ==================================================
+   Video Mobile
+================================================== */
+@media screen and (max-width: 767px) {
+    .video-main {
+        width: 88%;
+        margin-bottom: 60px;
+    }
+    .video-main video {
+        width: 100%;
+    }
+    .video-tiktok {
+        margin-top: 60px;
+        padding: 70px 20px;
+    }
+    .video-tiktok h2 {
+        font-size: 34px;
+    }
+    .video-tiktok p {
+        font-size: 13px;
+    }
+    .video-tiktok a {
+        min-width: 200px;
+        padding: 15px 25px;
+    }
+}
